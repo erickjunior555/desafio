@@ -21,6 +21,5 @@ public class WireMockCepClient implements ICepClient {
     public CepResponseDTO consultar(String cep) {
         return rest.getForObject("http://localhost:8081/cep/" + cep, CepResponseDTO.class);
     }
-
 }
 
