@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/cep/\\d{8}"
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "cep": "00000-000",
+      "logradouro": "Rua Genérica",
+      "bairro": "Bairro Qualquer",
+      "localidade": "Cidade X",
+      "uf": "ZZ"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
